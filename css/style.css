@@ -114,7 +114,7 @@ header a:hover {
 #newsletter {
     padding: 15px;
     color: #fff;
-    background: #0779e4;
+    background: #87CEFA; /* Lighter blue background */
 }
 
 #newsletter h1 {
@@ -159,9 +159,9 @@ header a:hover {
 
 footer {
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 0;
     color: #fff;
-    background-color: #0779e4;
+    background-color: #87CEFA; /* Match the subscription background color */
     text-align: center;
 }
 
