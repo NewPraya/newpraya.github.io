@@ -24,4 +24,4 @@ We welcome contributions from the community. Please fork this repository and sub
 
 ## Contact Us
 
-For more information, please visit our [website](https://newpraya.github.io) or contact us at [contact@newpraya.ai](mailto:contact@newpraya.ai).
+For more information, please visit our [website](https://newpraya.github.io) or contact us at [newprayaai@gmail.com](mailto:newprayaai@gmail.com).
