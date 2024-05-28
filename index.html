@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NewPraya AI</title>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            document.getElementById('newsletter').innerHTML = '<h1>Thank you for subscribing!</h1><p>We will contact you soon.</p>';
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -25,16 +31,10 @@
     </header>
 
     <section id="showcase">
+        <div class="background-image"></div>
         <div class="container">
             <h1>Welcome to NewPraya AI</h1>
             <p>Pioneering AI-driven solutions for healthcare, biomedical, and financial applications.</p>
-        </div>
-    </section>
-
-    <section id="newsletter">
-        <div class="container">
-            <h1>Subscribe To Our Newsletter</h1>
-            <iframe src="https://forms.gle/qi8skZ44WCoCK1yG7" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
     </section>
 
@@ -70,6 +70,13 @@
         <div class="container">
             <h1>Contact Us</h1>
             <p>For more information, please contact us at <a href="mailto:newprayaai@gmail.com">newprayaai@gmail.com</a>.</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdE-Uq_-0hfle3NhrQmQLPTnXBXXuhT4a-v3IHo-c6vmqtLzg/viewform?usp=sf_link" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
     </section>
 
